@@ -1,0 +1,98 @@
+.header{
+    border: 2px solid black;
+    padding: 8px;
+    position: relative;
+}
+.header-image{
+    margin-right: 2rem;
+}
+.navlinks{
+   display: inline-block;
+   margin-right: 50rem;
+}
+a{
+    margin-right: 4rem;
+    text-decoration: none;
+    border: none;
+    color: gray;
+    font-size:20px ;
+}
+
+a:hover{
+    color: #FF6348;
+}
+.search-bar{
+    padding: 7px;
+}
+.banner-section{
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 50px;
+    padding-top: 80px;
+}
+.article-section{
+  display: inline-block;
+  width: 700px;
+}
+.article-heading{
+    font-size:50px;
+}
+.article-content{
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+.article-image{
+    margin-left: 10rem;
+    border-radius: 4px;
+}
+.article-button{
+    background-color: #FF6348;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.testimonial-section{
+    margin-top:5rem;
+    padding: 30px;
+    padding-top: 100px;
+    border: 2px solid black;
+}
+.placeholder{
+    display: inline-block;
+    width: 400px;
+    margin-left: 3.5rem;
+}
+footer{
+    border: 2px solid black;
+    margin-top: 5rem;
+    padding: 20px;
+}
+div h4{
+    color: #FF6348;
+}
+div span{
+    margin-left: 30px;
+}
+.footer-media img{
+    margin-left: 30px;
+}
+.footer-link,.footer-media,.footer-terms{
+    display: inline-block;
+}
+.footer-media,.footer-link{
+    margin-left: 23rem;
+}
+.footer-terms{
+    margin-top: 0.5rem;
+}
+.footer-link span{
+    font-size: 20px;
+}
+.footer-terms h4{
+    display: inline-block;
+    margin-left: 14rem;
+    font-size: 20px;
+}
