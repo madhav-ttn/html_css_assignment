@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/assignment2.css">
+</head>
+<body>
+    <main class="main">
+        <header>
+            <h1 style="font-weight: 200;">TO THE NEW</h1>
+            <div>
+                <h4 style="font-weight: 200;">Home</h4>
+                <h4 style="font-weight: 200;">Quick Help</h4>
+            </div>
+        </header>
+        <hr>
+        <div class="form-container">
+            
+            <form action="">
+                <div class="form-container-header">
+                 <h1>Bug Report</h1>
+                 </div>
+            <div class="form-elements">
+
+                <label for="Title">
+                    Title:*
+                </label>
+                <input type="text" name="Title" id="title" required>
+                <label for="Description">Description*</label>
+                <textarea name="text" name="Description" id="title" rows="20" required></textarea>
+                <label for="Operating system">Operating system:</label>
+            <select name="Operating system" id="">
+                <option value="">Window XP</option>
+                <option value="">Ubuntu</option>
+                <option value="">Debian</option>
+            </select>
+            <label for="Product">Product:*</label>
+            <select name="Product" id="" required>
+                <option value="">Formoid</option>
+                <option value="">WarZone</option>
+                <option value="">Eqiupments</option>
+            </select>
+            <label for="Version">Version:*</label>
+            <input type="text" name="Version" required>
+            <label for="License">License:</label>
+            <div class="radio-btns">
+                <div>
+                    <input type="radio" name="License" id="free" value="free">
+                    <label for="free">Free</label>
+                </div>
+                <div>
+                    <input type="radio" name="License" id="business" >
+                    <label for="business">Business</label>
+                </div>
+            </div>
+            <label for="Severity">Severity:</label>
+            <select name="Severity" id="">
+                <option value="">Critical</option>
+                <option value="">Moderate</option>
+                <option value="">Low</option>
+            </select>
+            <label for="Attachments">Attachments:</label>
+            <div class="file-upload-btn">
+                  <input class="file-input-section" name="Attachments" type="text" placeholder="No file Selected">
+                <label for="file-upload" class="custom-file-upload">
+                    Choose File
+                </label>
+                <input id="file-upload" type="file" name="Attachments">
+              </div>
+        </div>
+            <div class="submit-section">
+                <Button type="submit">Send</Button>
+            </div>
+        </form>
+    </div>
+    </main>
+</body>
+</html>

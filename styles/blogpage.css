@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    padding-top: 50px;
+    gap: 30px;
+}
+.main-blog{
+    width: 80%;
+    border: 2px solid #bcc3ca;
+    border-radius: 6px;
+}
+.blog-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.details{
+    display: flex;
+    padding:8px 20px;
+    gap: 40px;
+}
+.details span{
+    display: flex;
+    align-items: center;
+}
+.other-blogs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sub-blogs{
+    display: flex;
+    border: 2px solid #bcc3ca;
+    border-left: 0;
+    border-radius: 6px;
+    gap: 10px;
+}
+.item{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+
+}
+.minute-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.calendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
